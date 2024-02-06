@@ -14,6 +14,8 @@ Before using this script, ensure that you have the following:
 
 4. **Service Principal with Correct RBAC**: Create a service principal with the appropriate role-based access control (RBAC) permissions. The principal should have password-based access for login. Instructions for creating a service principal and assigning roles can be found [here](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
 
+5. **Understanding of Azure CLI Commands**: Users should have a basic understanding of Azure CLI commands to effectively use this script. If you are not familiar with Azure CLI and the relevant commands used in this script, take time and learn more about them from the [official documentation](https://docs.microsoft.com/en-us/cli/azure/).
+
 ### Usage
 
 To use the Cloud Uploader CLI Tool, follow these steps:

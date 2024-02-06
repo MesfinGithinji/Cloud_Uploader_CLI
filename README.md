@@ -16,6 +16,7 @@ Before using this script, ensure that you have the following:
 
 5. **Understanding of Azure CLI Commands**: Users should have a basic understanding of Azure CLI commands to effectively use this script. If you are not familiar with Azure CLI and the relevant commands used in this script, take time and learn more about them from the [official documentation](https://docs.microsoft.com/en-us/cli/azure/).
 
+
 ### Usage
 
 To use the Cloud Uploader CLI Tool, follow these steps:

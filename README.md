@@ -39,6 +39,34 @@ To use the Cloud Uploader CLI Tool, follow these steps:
 Here is a successful test i performed on my machinen and the script worked as expected.
 ![alt text](image.png)
 
+### Making the Script Globally Available
+
+To make the Cloud Uploader CLI Tool script globally available on your Linux system, follow these steps:
+
+1. **Ensure the Script is Executable**:
+   Before proceeding, ensure that the script (`cloud_uploader.sh`) is executable. If it's not already executable, you can make it executable using the following command:
+   ```bash
+   chmod +x cloud_uploader.sh
+   ```
+
+2. **Move the Script to a Directory in the System's PATH**:
+   To make the script globally available, you need to move it to a directory that is included in your system's PATH. Common directories where user scripts are placed include `/usr/local/bin` or `~/bin` (if it exists and is in your PATH).
+
+   For example, you can move the script to `/usr/local/bin` using the following command (you may need root privileges):
+   ```bash
+   sudo mv cloud_uploader.sh /usr/local/bin
+   ```
+
+3. **Verify Accessibility**:
+   After moving the script, verify that it is accessible from any directory by typing its name without specifying the path. Open a new terminal session and try running the script:
+   ```bash
+   cloud_uploader.sh <container_name> <file_path>
+   ```
+
+   If the script runs successfully, it means it is globally available.
+
+By following these steps, you can make your script globally available on your Linux system, allowing you to execute it from any directory without specifying its full path.
+
 ### Note
 
 - This script has been developed and tested on a Debian-based Linux distribution (Pop!_OS), specifically using the `apt` package manager. Users on similar systems should ensure compatibility and review the `install_azure_CLI` function in the script for any necessary adjustments.

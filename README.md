@@ -34,6 +34,11 @@ To use the Cloud Uploader CLI Tool, follow these steps:
 
    Replace `<container_name>` with the name of your Azure Storage container and `<file_path>` with the path to the file you want to upload.
 
+### Sample Output
+
+Here is a successful test i performed on my machinen and the script worked as expected.
+![alt text](image.png)
+
 ### Note
 
 - This script has been developed and tested on a Debian-based Linux distribution (Pop!_OS), specifically using the `apt` package manager. Users on similar systems should ensure compatibility and review the `install_azure_CLI` function in the script for any necessary adjustments.
